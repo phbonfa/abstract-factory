@@ -9,6 +9,6 @@ public class FabricaHorasTrabalhadasExtras implements FabricaAbstrata {
 
     @Override
     public Historico createHistorico() {
-        return new HistoricoHorasTrabalhadasRegulares();
+        return new HistoricoHorasTrabalhadasExtras();
     }
 }
